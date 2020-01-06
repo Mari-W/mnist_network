@@ -5,7 +5,7 @@ import numpy as np
 import string
 
 
-class EMNISTNetwork:
+class MNISTNetwork:
 
     def __init__(self):
         d_inputs, d_results = extract_training_samples("digits")
@@ -25,4 +25,4 @@ class EMNISTNetwork:
         return e
 
 
-EMNISTNetwork()
+MNISTNetwork()
